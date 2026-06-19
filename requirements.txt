@@ -1,0 +1,13 @@
+langgraph>=0.2
+langchain>=0.3
+langchain-core>=0.3
+langchain-community>=0.3
+ddgs
+requests
+beautifulsoup4
+pydantic>=2
+
+# Install ONLY the provider you use (set via LLM_PROVIDER):
+langchain-google-genai>=2.1   # LLM_PROVIDER=google  (Gemini)
+langchain-xai>=0.2            # LLM_PROVIDER=xai     (xAI Grok)
+langchain-groq>=0.2           # LLM_PROVIDER=groq    (Groq / Llama)
